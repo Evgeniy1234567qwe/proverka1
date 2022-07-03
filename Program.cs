@@ -67,9 +67,53 @@
 // Console.WriteLine(a);
 
 
-// 1.Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
+// // 1.Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
 
-Console.Write("Input first number: ");
-int num1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Input second number: ");
-int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input first number: ");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input second number: ");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// if (num1 == num2)
+//      Console.Write("The numbers are equal to each other");
+// else if (num1 > num2)
+//     Console.Write("First number - max, Second number - min");
+// else
+//     Console.Write("First number - min, Second number - max");
+
+
+// //2.Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+
+// Console.Write("Input first number: ");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input second number: ");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input Third number: ");
+// int num3 = Convert.ToInt32(Console.ReadLine());
+// int max = num1;
+// if (num2 > max)max = num2;
+// else 
+//     max = num1;
+// if (num3 > max)max = num3;
+//     Console.Write(max);
+
+
+// // 3.Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+// Console.Write("Input number: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// if (num %2 == 0)
+//     Console.Write("Четное");
+// else
+//     Console.Write("Нечетное");
+
+
+// // 4.Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+// Console.Write("Input number: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// int current = 2;
+// while(current <= num){
+//     if (current % 2==0)
+//     Console.Write(current + " ");
+//     current++;
+// }
