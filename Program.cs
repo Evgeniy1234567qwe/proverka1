@@ -200,11 +200,64 @@
 // int a = num / 10 % 10;
 // Console.WriteLine(a);
 
-// Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+// // Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
-Console.Write("Input number: ");
-int num = Convert.ToInt32(Console.ReadLine());
-int a = num / 100 % 10;
-    Console.WriteLine(a);
-    if (num < 99)
-    Console.Write("Третьей цифры нет");
+// Console.Write("Input number: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// int a = num / 100 % 10;
+//     Console.WriteLine(a);{
+//     if (num < 99)
+//     Console.WriteLine("Третьей цифры нет");
+//     }
+
+// Семинар 2
+// Напишите программу, которая выводит случайное число из отрезка [10, 99] и показывает наибольшую цифру числа.
+
+// 78 -> 8
+// 12-> 2
+// 85 -> 8
+
+// void showNumber(){
+//     int num = new Random().Next(10, 100);
+//     int num1 = num / 10;
+//     int num2 = num % 10;
+//     Console.Write(num + " -> ");
+//     if(num1 > num2){
+//         Console.Write(num1);
+//     }
+//     else{
+//         Console.Write(num2);
+//     }
+// }
+// // showNumber();
+
+// // Напишите программу, которая выводит случайное трехзначное число и удаляет вторую цифру этого числа.
+// 456 -> 46
+// 782 -> 72
+// 918 -> 98
+
+// void FirstThirdNumbers(){
+// int num = new Random().Next(100, 1000);
+// int num1 = num / 100 * 10 + num % 10;
+// Console.WriteLine(num + " -> " + num1);
+// }
+// FirstThirdNumbers();
+
+// Напишите программу, которая будет принимать на вход два числа и выводить, является ли второе число кратным первому. Если число 2 не кратно числу 1, то программа выводит остаток от деления.
+// 34, 5 -> не кратно, остаток 4
+// 16, 4 -> кратно
+
+// void FunDifference( int num1, int num2){
+//     if(num2 % num1 == 0){
+//         Console.WriteLine(num2 + " кратно " + num1);
+//     }
+//     else{
+//         int num3 = num2 % num1;
+//         Console.WriteLine(num2 + " некратно " + num1 + " остаток " + num3);
+//     }
+// }
+// Console.Write("Input first number: ");
+// int n1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input Second number: ");
+// int n2 = Convert.ToInt32(Console.ReadLine());
+// FunDifference(n1, n2);
